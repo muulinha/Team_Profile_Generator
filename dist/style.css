@@ -1,12 +1,45 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: brown;
+    background-color: rgb(224, 99, 99);
+    margin: 0 0 30px;
+}
+
+section {
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 40px
+}
+
+.card-header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.card {
+    width: 20%;
+    margin: 0 10px 15px 0;
+    border: 1px solid grey;
+
+}
+
+.id, .email, .github {
+    border: 1px solid grey;
+}
+
+.card-body {
+    padding: 20px 10px;
+
 }
