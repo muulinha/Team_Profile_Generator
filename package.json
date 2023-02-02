@@ -1,6 +1,28 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.5",
     "require": "^2.4.20"
-  }
+  },
+  "name": "team_profile_generator",
+  "description": "Team_Profile_Generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muulinha/Team_Profile_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muulinha/Team_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/muulinha/Team_Profile_Generator#readme"
 }
